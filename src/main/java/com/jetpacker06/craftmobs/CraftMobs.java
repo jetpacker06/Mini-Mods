@@ -15,4 +15,4 @@ public class CraftMobs {
         MinecraftForge.EVENT_BUS.register(this);
     }
 }
-//TODO warden recipe, configurable. by version 2.2
+//TODO warden recipe, configurable. by version 2.2. diamond blocks?
