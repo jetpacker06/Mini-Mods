@@ -1,0 +1,23 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "B": {
+      "item": "minecraft:emerald"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "B#B",
+    "ABA"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:evoker_spawn_egg"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,23 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "minecraft:ghast_tear"
+    },
+    "B": {
+      "item": "minecraft:gunpowder"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "B#B",
+    "ABA"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:ghast_spawn_egg"
+  },
+  "type": "minecraft:crafting_shaped"
+}

@@ -1,0 +1,23 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "minecraft:bone"
+    },
+    "B": {
+      "item": "minecraft:leather"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "B#B",
+    "ABA"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:skeleton_horse_spawn_egg"
+  },
+  "type": "minecraft:crafting_shaped"
+}
