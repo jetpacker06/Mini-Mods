@@ -1,0 +1,23 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "minecraft:verdant_froglight"
+    },
+    "B": {
+      "item": "minecraft:pearlescent_froglight"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "B#B",
+    "ABA"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:frog_spawn_egg"
+  },
+  "type": "minecraft:crafting_shaped"
+}
