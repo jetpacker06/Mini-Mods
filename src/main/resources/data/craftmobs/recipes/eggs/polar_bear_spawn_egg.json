@@ -1,0 +1,23 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "minecraft:cod"
+    },
+    "B": {
+      "item": "minecraft:packed_ice"
+    }
+  },
+  "pattern": [
+    "ABA",
+    "B#B",
+    "ABA"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:polar_bear_spawn_egg"
+  },
+  "type": "minecraft:crafting_shaped"
+}

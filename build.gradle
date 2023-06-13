@@ -15,8 +15,8 @@ apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
 version = "${mod_version}"
-group = 'com.jetpacker06.decompact'
-archivesBaseName = 'decompact'
+group = 'com.jetpacker06.modpackage'
+archivesBaseName = 'craftmobs'
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
 repositories {
@@ -40,10 +40,10 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
-            property 'forge.enabledGameTestNamespaces', 'decompact'
+            property 'forge.enabledGameTestNamespaces', 'craftmobs'
 
             mods {
-                decompact {
+                craftmobs {
                     source sourceSets.main
                 }
             }
@@ -53,9 +53,9 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
-            property 'forge.enabledGameTestNamespaces', 'decompact'
+            property 'forge.enabledGameTestNamespaces', 'craftmobs'
             mods {
-                decompact {
+                craftmobs {
                     source sourceSets.main
                 }
             }
@@ -64,9 +64,9 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
-            property 'forge.enabledGameTestNamespaces', 'decompact'
+            property 'forge.enabledGameTestNamespaces', 'craftmobs'
             mods {
-                decompact {
+                craftmobs {
                     source sourceSets.main
                 }
             }
@@ -76,9 +76,9 @@ minecraft {
             workingDirectory project.file('run')
             property 'forge.logging.markers', 'REGISTRIES'
             property 'forge.logging.console.level', 'debug'
-            args '--mod', 'decompact', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
+            args '--mod', 'craftmobs', '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
             mods {
-                decompact {
+                craftmobs {
                     source sourceSets.main
                 }
             }
@@ -100,12 +100,12 @@ dependencies {
 jar {
     manifest {
         attributes([
-                "Specification-Title"     : "decompact",
-                "Specification-Vendor"    : "decompactsareus",
+                "Specification-Title"     : "craftmobs",
+                "Specification-Vendor"    : "craftmobssareus",
                 "Specification-Version"   : "1", // We are version 1 of ourselves
                 "Implementation-Title"    : project.name,
                 "Implementation-Version"  : project.jar.archiveVersion,
-                "Implementation-Vendor"   : "decompactsareus",
+                "Implementation-Vendor"   : "craftmobssareus",
                 "Implementation-Timestamp": new Date().format("yyyy-MM-dd'T'HH:mm:ssZ")
         ])
     }

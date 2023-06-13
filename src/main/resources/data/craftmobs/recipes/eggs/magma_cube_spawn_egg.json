@@ -1,0 +1,20 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "minecraft:magma_cream"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "A#A",
+    "AAA"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:magma_cube_spawn_egg"
+  },
+  "type": "minecraft:crafting_shaped"
+}

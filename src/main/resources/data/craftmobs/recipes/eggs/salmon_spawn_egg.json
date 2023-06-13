@@ -1,0 +1,20 @@
+{
+  "key": {
+    "#": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "A": {
+      "item": "minecraft:salmon"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "A#A",
+    "AAA"
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:salmon_spawn_egg"
+  },
+  "type": "minecraft:crafting_shaped"
+}
