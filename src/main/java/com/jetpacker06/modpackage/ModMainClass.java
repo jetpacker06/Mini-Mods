@@ -8,7 +8,7 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 //Mod ID can have ONLY LOWERCASE LETTERS. No numbers, no underscores, no characters, no capitals, no spaces.
-@Mod("yourmodidhere")
+@Mod(ModMainClass.MOD_ID)
 public class ModMainClass {
     public static final String MOD_ID = "yourmodidhere";
     public static final Logger LOGGER = LogManager.getLogger();
