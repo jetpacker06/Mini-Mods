@@ -6,14 +6,14 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-@Mod(ModMainClass.MOD_ID)
+@Mod(InfiniteAnvil.MOD_ID)
 @Mod.EventBusSubscriber
 @SuppressWarnings("unused")
-public class ModMainClass {
+public class InfiniteAnvil {
     public static final String MOD_ID = "infiniteanvil";
     public static final Logger LOGGER = LogManager.getLogger();
 
-    public ModMainClass() {
+    public InfiniteAnvil() {
         MinecraftForge.EVENT_BUS.register(this);
     }
     @SubscribeEvent
