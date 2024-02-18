@@ -48,9 +48,17 @@ description='''Hi'''
     side="BOTH"
 # Here's another dependency
 [[dependencies.goldenpiggycharm]]
-    modId="minecraft"
-    mandatory=true
+modId="minecraft"
+mandatory=true
 # This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.18.2,1.19)"
+versionRange="[1.18.2,1.19)"
+ordering="NONE"
+side="BOTH"
+
+# Curios
+[[dependencies.goldenpiggycharm]]
+    modId="curios"
+    mandatory=true
+    versionRange="[1.18.2-5.0.9.2,)"
     ordering="NONE"
     side="BOTH"
