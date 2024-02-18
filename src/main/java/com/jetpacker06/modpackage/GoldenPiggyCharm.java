@@ -19,7 +19,7 @@ import top.theillusivec4.curios.api.SlotTypeMessage;
 import top.theillusivec4.curios.api.SlotTypePreset;
 
 @Mod(GoldenPiggyCharm.MOD_ID)
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, modid = GoldenPiggyCharm.MOD_ID)
 public class GoldenPiggyCharm {
     public static final String MOD_ID = "goldenpiggycharm";
 
