@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " # ",
+    "#G#",
+    " # "
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:gold_nugget"
+    },
+    "G": [
+      {
+        "item": "minecraft:gold_ore"
+      },
+      {
+        "item": "minecraft:deepslate_gold_ore"
+      },
+      {
+        "item": "minecraft:nether_gold_ore"
+      }
+    ]
+  },
+  "result": {
+    "item": "goldenpiggycharm:golden_piggy_charm",
+    "count": 1
+  }
+}
