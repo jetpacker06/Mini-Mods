@@ -3,8 +3,9 @@ package com.jetpacker06.modpackage;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraftforge.common.CreativeModeTabRegistry;
 import net.minecraftforge.common.MinecraftForge;
-import net.minecraftforge.event.CreativeModeTabEvent;
+import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.InterModComms;
@@ -40,8 +41,8 @@ public class GoldenPiggyCharm {
     }
 
     @SubscribeEvent
-    public static void populateTab(CreativeModeTabEvent.BuildContents event) {
-        if (event.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
+    public static void populateTab(BuildCreativeModeTabContentsEvent event) {
+        if (event.getTab().equals(CreativeModeTabRegistry.getTab(CreativeModeTabs.TOOLS_AND_UTILITIES.location()))) {
             event.accept(new ItemStack(ITEM.get()));
         }
     }

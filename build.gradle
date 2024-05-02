@@ -36,6 +36,7 @@ repositories {
         url = "https://modmaven.dev"
     }
     maven {
+        name = "Illusive Soulworks maven"
         url = "https://maven.theillusivec4.top/"
     }
 }
@@ -51,7 +52,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
             property 'forge.enabledGameTestNamespaces', 'goldenpiggycharm'
             property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
 
             mods {
                 goldenpiggycharm {
@@ -66,7 +67,7 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
             property 'forge.enabledGameTestNamespaces', 'goldenpiggycharm'
             property 'mixin.env.remapRefMap', 'true'
-            property 'mixin.env.refMapRemappingFile', "${buildDir}/createSrgToMcp/output.srg"
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
             mods {
                 goldenpiggycharm {
                     source sourceSets.main
@@ -113,8 +114,8 @@ dependencies {
     runtimeOnly(fg.deobf("mezz.jei:jei-${mc_version}-forge:${jei_version}"))
 
     // curios
-    runtimeOnly fg.deobf("top.theillusivec4.curios:curios-forge:${mc_version}-${curios_version}")
-    compileOnly fg.deobf("top.theillusivec4.curios:curios-forge:${mc_version}-${curios_version}:api")
+    compileOnly(fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}+${mc_version}:api"))
+    runtimeOnly(fg.deobf("top.theillusivec4.curios:curios-forge:${curios_version}+${mc_version}"))
 }
 jar {
     manifest {
