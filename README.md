@@ -1,17 +1,10 @@
-Clone me!   
-parchment is set up already   
-jei is set up already, although note there is no JEI version for 1.19 or 1.19.1, so it is commented out on 1.19 branch
+### Craft Ores!   
+This mod allows the user to craft ore blocks using their respective resources and base stone blocks.
+The cost is balanced such that even with Fortune 3, the recipe costs too much to "craft, mine, repeat" profitably.   
 
-things to change:
+Sample recipes are found in [the media folder.]("https://github.com/jetpacker06/Mini-Mods/tree/CraftOres-1.18.x/media")
 
-Package structure and class names   
-Mod ID string in ModMainClass   
-Set up resources folder   
-resources/META-INF/mods.toml: Set mod ID on line 18, then edit anything you like.   
-build.gradle: Replace all occurrences of emptymod with your mod ID   
-build.gradle: replace "group" with your package name   
-pack.mcmeta   
+Check JEI for the rest of the recipes. The resources costs vary based on the ore's typical output.
 
-I store some of my simpler mods in this repo, such as:   
-Decompact   
-Craft Mobs   
+CurseForge link: soon   
+Modrinth link: soon
