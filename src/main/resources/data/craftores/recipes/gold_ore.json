@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#D#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:gold_ingot"
+        },
+        "D": {
+            "item": "minecraft:stone"
+        }
+    },
+    "result": {
+        "item": "minecraft:gold_ore",
+        "count": 1
+    },
+    "group": "ores"
+}

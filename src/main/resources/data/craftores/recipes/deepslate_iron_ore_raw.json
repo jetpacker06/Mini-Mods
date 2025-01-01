@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " # ",
+        "#D#",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:raw_iron"
+        },
+        "D": {
+            "item": "minecraft:deepslate"
+        }
+    },
+    "group": "ores",
+    "result": {
+        "item": "minecraft:deepslate_iron_ore",
+        "count": 1
+    }
+}
