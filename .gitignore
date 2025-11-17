@@ -23,3 +23,16 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+
+# --- Track only run/options.txt ---
+# Ignore whole run directory
+run/
+
+# Allow git to look inside run
+!run/
+
+# Ignore everything inside run
+run/*
+
+# But track only this file
+!run/options.txt
